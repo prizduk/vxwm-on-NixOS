@@ -32,4 +32,5 @@ To install vxwm on NixOS, you will need to add this code to your configuration.n
          # Your config... 
     } 
 ```
-After all this run `nixos-rebuild` aaaand.. done!
+After all this run `nixos-rebuild` aaaand.. done! <br>
+You can download config.h from my friend TextCoffin (https://github.com/TextCoffin/vxwm-keybinds-config/blob/main/config.h) <br>
