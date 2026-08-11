@@ -1,3 +1,5 @@
 # vxwm-on-NixOS
-nix-os: https://nixos.org/
+nix-os: https://nixos.org
+
+WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!
 
