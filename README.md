@@ -15,7 +15,7 @@ To install vxwm on NixOS, you will need to add this code to your configuration.n
             repo = "vxwm"; 
             rev = "main"; 
             hash = "sha256-00000000000000000000000000000000"; 
-						# After running the `nixos-rebuild` command, an error will occur referencing the correct hash. 
+						# After running the `nixos-rebuild switch` command, an error will occur referencing the correct hash. 
 						# Just copy it and paste instead of 00000...
           }; 
         buildInputs = with pkgs; [ libX11 libXft libXinerama ]; 
@@ -32,5 +32,5 @@ To install vxwm on NixOS, you will need to add this code to your configuration.n
          # Your config... 
     } 
 ```
-After all this run `nixos-rebuild` aaaand.. done! <br>
+After all this run `nixos-rebuild switch` aaaand.. done! <br>
 You can download config.h from my friend TextCoffin (https://github.com/TextCoffin/vxwm-keybinds-config/blob/main/config.h) <br>
