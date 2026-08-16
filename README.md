@@ -1,7 +1,7 @@
 # vxwm-on-NixOS
 nix-os: https://nixos.org
 
-WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!
+WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY! <br>
 ( idk it's work on my machine :/ )
 ___________________________________________________________________________________________________________
 To install vxwm on NixOS, you will need to add this code to your configuration.nix file:
