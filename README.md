@@ -2,7 +2,7 @@
 nix-os: https://nixos.org
 
 WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY! <br>
-DO NOT USE 'nixosstal.sh' IT'S DON'T WORK NOW !!!!! <br>
+DO NOT USE `nixosstal.sh` IT'S DON'T WORK NOW !!!!! <br>
 ( idk it's work on my machine :/ )
 ___________________________________________________________________________________________________________
 To install vxwm on NixOS, you will need to add this code to your configuration.nix file:
