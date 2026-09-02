@@ -12,9 +12,6 @@
 						# Just copy it and paste instead of 00000...
           }; 
         buildInputs = with pkgs; [ libX11 libXft libXinerama ]; 
-        preBuild = '' 
-           cp ${your_way_to_config_vxwm} config.h 
-        ''; 
         makeFlags = [ "PREFIX=$(out)" "BIN=vxwm" ]; 
         installPhase = '' 
             mkdir -p $out/bin 
